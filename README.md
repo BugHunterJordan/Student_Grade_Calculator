@@ -1,2 +1,16 @@
-# Student_Grade_Calculator
-Python program that calculates and displays student grades based on test scores, including the highest score.
+# Student Grade Calculator
+A Python program that collects student names and test scores, calculates letter grades, and displays a formatted grade report.  
+The program also identifies the highest score among all students and assigns grades relative to that score.
+
+## About the Project
+This project was created as part of my Intro to Programming course.  
+It demonstrates working with Python **functions, lists, loops, and conditionals** to process multiple inputs and produce a structured output.  
+The program validates user input and ensures scores and student numbers are within reasonable ranges.
+
+## Skills Practiced
+- Python **input handling** and **validation**  
+- **Lists** to store student names, scores, and grades  
+- **Functions** for modular programming  
+- **Loops** (for loops) for processing multiple students  
+- **Conditional statements** (if, elif, else) for letter grade assignment  
+- **Formatted output** with format() 
