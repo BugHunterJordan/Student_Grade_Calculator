@@ -3,8 +3,7 @@ A Python program that collects student names and test scores, calculates letter 
 The program also identifies the highest score among all students and assigns grades relative to that score.
 
 ## About the Project
-This project was created as part of my Intro to Programming course.  
-It demonstrates working with Python **functions, lists, loops, and conditionals** to process multiple inputs and produce a structured output.  
+This project demonstrates working with Python **functions, lists, loops, and conditionals** to process multiple inputs and produce a structured output.  
 The program validates user input and ensures scores and student numbers are within reasonable ranges.
 
 ## Skills Practiced
