@@ -1,20 +1,16 @@
 ##Jordan Pangrazzi
-##CIT129-1002
-##8/4/25
-#3 hours
 #Create a program that based upon the number of students gets their name & test scores, then displays their grades based upon their score. Also displays the highest grade out of all the tests
 
-
 def getStudents():   #define function to get the number of students
-    numStudents = int(input("Enter the number of students (1 to 50 students): "))  #ask user to enter number of students(1-50)
+    numStudents = int(input("Welcome! Enter the number of students (1 to 50): "))  #ask user to enter number of students(1-50)
     while numStudents < 1 or numStudents > 50: #if not 1-50 students
         numStudents = int(input("Invalid entry - Enter number between 1-50: "))  #display error message, while loop to ask to input proper value
     return numStudents #assigns num (called inside main) value to getStudents()
 
 def getScores(numStudents, name, score):  #define function w/ 3 parameters to get name and score for the set of students
     for x in range(numStudents):
-        n = input("Enter student's name: ")   #ask user to input name
-        s = float(input("Enter student's test score: "))  #ask user to input test score
+        n = input("Enter the student's name: ")   #ask user to input name
+        s = float(input("Enter the student's test score: "))  #ask user to input test score
         name.append(n)  #each time user adds a new students name it goes to end of the name list
         score.append(s)  #each time user adds a new score it goes to the end of the score list
 
@@ -37,11 +33,11 @@ def getGrade(numStudents, name, score, highest, grade):  #define the function w/
         grade.append(grading)  #each grade gets added to the end of the grade list
 
 def displayData(numStudents, name, score, grade, highest): #define function to display the data, w/ 5 parameters
-    print("\n***Grade Report***")
+    print("\n***Personalized Grade Report***")
     print("\nName", "\t", "Score", "\t", "Grade")  #display this column to align with the users data below to make it presentable
     for g in range(numStudents):  
         print(name[g], "\t", format(score[g], '.2f'), "\t", grade[g]) #displays the values of it's parameters in list format
-    print("\nThe highest test score: ", format(highest, '.2f'))  #display the highest test score of any given by the user
+    print("\nHighest test score in the class: ", format(highest, '.2f'))  #display the highest test score of any given by the user
     
 
 def main():  #define main function in order to call and execute functions inside of main
