@@ -6,6 +6,8 @@ The program also identifies the highest score among all students and assigns gra
 This project demonstrates working with Python **functions, lists, loops, and conditionals** to process multiple inputs and produce a structured output.  
 The program validates user input and ensures scores and student numbers are within reasonable ranges.
 
+The code for this project is included in the attached Python file (StudentGradeCalculator.py) and can be run directly to see these concepts in action.
+
 ## Skills Practiced
 - Python **input handling** and **validation**  
 - **Lists** to store student names, scores, and grades  
